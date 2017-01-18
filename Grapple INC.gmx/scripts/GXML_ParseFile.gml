@@ -8,7 +8,7 @@ show_debug_message("Parsing file " + FileName + " at time: " + string(get_timer(
 var FileRead = file_text_open_read(FileName);
 
 if(FileRead == -1) {
-    show_error("Failed to read file.", true);
+    show_error("Failed to read file: " + FileName, true);
     return 0;
 }
 

@@ -628,7 +628,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_tutorial</room>
-    <room>rooms\room_level_superBig</room>
     <room>rooms\room_paralaxShowcase</room>
     <room>rooms\room_level_two</room>
     <room>rooms\room_level_one</room>
